@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS盒子模型</title>
+    <style>
+        .border_demo{
+            background-color: yellow;
+            width: 300px;
+            height: 200px;
+            border-style: solid dashed dotted double;/*上右下左*/
+            border-width: 10px 0 20px 40px;/*上右下左*/
+            border-color: blueviolet;
+        }
+        .demo{
+            background-color: aqua;
+            display: inline-block;
+            border: 5px double yellowgreen;
+            /*border-left: 10px solid brown;*/
+            padding: 50px;
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo"> 演示</div>
+    <div class="border_demo"> 演示案例 </div>
+</body>
+</html>
