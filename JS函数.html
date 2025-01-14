@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript 函数</title>
+</head>
+<body>
+    <script>
+        function greeting(){
+            console.log('Hello world');
+        }
+
+        greeting();
+
+        function greeting_return(){
+            return 'Hello world 返回值';
+        }
+
+        let a = greeting_return();
+        console.log(a);
+        console.log(greeting_return());
+
+        function greeting_with_people(name){
+            console.log('Hello '+ name);
+        }
+
+        greeting_with_people('Justin');
+        greeting_with_people('Alice');
+
+        //作用域
+
+        let global_var = '全局变量';
+        function local_var(){
+            let local_var = '局部变量';
+            console.log('函数内打印全局变量 ' + global_var);
+            console.log('函数内打印局部变量 ' + local_var);
+        }
+        local_var();
+    </script>
+    
+</body>
+</html>
