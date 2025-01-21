@@ -1,0 +1,40 @@
+#image{
+    max-width:50%;
+    height:auto;
+    display:block;
+    max-height: 50%;
+    justify-content: center;
+    margin: auto;
+  }
+  figure{
+    display: block;
+    align-items: center;
+    
+  }
+  #theme{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px auto;
+    letter-spacing: 1 px;
+    text-align:center;
+    
+  }
+  h3{
+    font-size: 1em;
+    font-weight: 100;
+    text-align:center;
+    margin: auto;
+    }
+  
+  #tribute-info{
+    text-align:right;
+  
+  }
+  #intro{
+    font-size: 1em;
+    font-weight: 100;
+    text-align:center;
+    margin: 5px 10px;
+  }
+  
