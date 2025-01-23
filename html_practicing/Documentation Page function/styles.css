@@ -1,0 +1,36 @@
+@media (max-width: 1199px) and (min-width: 769px) {
+    *{
+      background:white;
+    }
+    }
+    
+    html {
+        display:flex;
+      }
+    
+    nav{
+      left:0;
+      position:relative;
+      background:#c9d2fc;
+      display:inline-block;
+      border:1px solid #5e5e5e;
+      padding: auto;
+      height:200px;
+      width:150px;
+      text-align:left;
+      margin:auto;
+    }
+    
+    .title{
+      font-weight:400;
+      font-size:32;
+      text-align:center;
+    }
+    nav ul,nav li,nav a, nav header{
+      background:#c9d2fc;
+    }
+    section{
+        max-width: 40rem;
+        margin: 0 auto;
+        border: 1px solid #d0d0d5;
+    }
