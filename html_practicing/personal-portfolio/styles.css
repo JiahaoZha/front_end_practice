@@ -1,0 +1,40 @@
+html {
+    font-size: 100%;
+  }
+  
+  #welcome-section{
+    background:rgb(20, 30, 40);
+    width:100vw;
+    height:100vw;
+    position:relative;
+  }
+  #name-intro{
+    margin-top:100px;
+    color:white;
+    text-align:center;
+    font-size:64px;
+  
+  }
+  #web-developer{
+    color:red;
+    text-align:center;
+  }
+  
+  nav{
+    height:100px;
+    width:100vw;
+    position:fixed;
+    top:0;
+    background:brown;
+  }
+  
+  @media only screen and (max-width: 400px){
+    #welcome-section{
+      height:500px;
+      width:500px;
+    }
+    *{
+      overflow:auto;
+    }
+  }
+  
