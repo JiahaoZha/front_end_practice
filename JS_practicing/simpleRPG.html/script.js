@@ -1,7 +1,7 @@
 let xp = 0;
 let health = 100;
 let gold = 50;
-let currentWeaponIndex = 0;
+let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 let inventory = ["stick"];
@@ -22,7 +22,6 @@ const weapons = [
   { name: 'claw hammer', power: 50 },
   { name: 'sword', power: 100 }
 ];
-
 const monsters = [
   {
     name: "slime",
@@ -119,10 +118,6 @@ function goCave() {
   update(locations[2]);
 }
 
-function fightDragon() {
-  console.log("Fighting dragon.");
-}
-
 function buyHealth() {
   if (gold >= 10) {
     gold -= 10;
@@ -153,6 +148,7 @@ function buyWeapon() {
     button2.onclick = sellWeapon;
   }
 }
+
 function sellWeapon() {
   if (inventory.length > 1) {
     gold += 15;
